@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.scade.sdk.expr="com.scade.sdk.expr" xmlns:com.scade.sdk.layout="http://scade.com/sdk/layout" xmlns:com.scade.sdk.view="http://scade.com/sdk/view/widgets" xmlns:com.scade.sdk.view.widgets.layout="http://scade.com/sdk/view/widgets/layout" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:svg="http://scade.com/svg/draw" xmlns:svg_1="http://scade.com/svg/constraints" xmlns:svg_2="http://scade.com/svg/style/color">
+  <com.scade.sdk.view:Slider name="slider" drawing="/1">
+    <size width="100" height="100"/>
+    <layout xsi:type="com.scade.sdk.view.widgets.layout:SliderLayout"/>
+    <maxArea width="-1" height="-1"/>
+    <template xsi:type="com.scade.sdk.view:GridView" name="template1" drawing="/1/@children.0/@children.1">
+      <layoutData xsi:type="com.scade.sdk.layout:GridData" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT" heightConstraint="MATCH_PARENT">
+        <minSize/>
+      </layoutData>
+      <size width="100" height="100"/>
+      <location/>
+      <layout xsi:type="com.scade.sdk.layout:GridLayout" marginTop="5" marginBottom="5" marginLeft="5" marginRight="5"/>
+      <minArea/>
+      <maxArea width="-1" height="-1"/>
+    </template>
+  </com.scade.sdk.view:Slider>
+  <svg:Group>
+    <children xsi:type="svg:ScrollGroup" attributes="{&quot;template-id&quot;:&quot;sliderScrollGroup&quot;,&quot;paging&quot;:&quot;true&quot;}" type="horizontal">
+      <constraints xsi:type="svg_1:ScrollSizeConstraint" exprStr="size.w size.h">
+        <width xsi:type="com.scade.sdk.expr:Variable" name="size">
+          <path>w</path>
+        </width>
+        <height xsi:type="com.scade.sdk.expr:Variable" name="size">
+          <path>h</path>
+        </height>
+      </constraints>
+      <children xsi:type="svg:Box" attributes="{&quot;template-id&quot;:&quot;background&quot;}">
+        <constraints xsi:type="svg_1:DirectConstraint" exprStr="size.h">
+          <feature xsi:type="ecore:EReference" href="http://scade.com/svg#//draw/Box/height"/>
+          <expression xsi:type="com.scade.sdk.expr:Variable" name="size">
+            <path>h</path>
+          </expression>
+        </constraints>
+        <constraints xsi:type="svg_1:DirectConstraint" exprStr="size.w">
+          <feature xsi:type="ecore:EReference" href="http://scade.com/svg#//draw/Box/width"/>
+          <expression xsi:type="com.scade.sdk.expr:Variable" name="size">
+            <path>w</path>
+          </expression>
+        </constraints>
+      </children>
+      <children xsi:type="svg:Group" attributes="{&quot;template-id&quot;:&quot;sliderTemplate&quot;}">
+        <children xsi:type="svg:Box" attributes="{&quot;template-id&quot;:&quot;background&quot;}">
+          <constraints xsi:type="svg_1:DirectConstraint" exprStr="size.h">
+            <feature xsi:type="ecore:EReference" href="http://scade.com/svg#//draw/Box/height"/>
+            <expression xsi:type="com.scade.sdk.expr:Variable" name="size">
+              <path>h</path>
+            </expression>
+          </constraints>
+          <constraints xsi:type="svg_1:DirectConstraint" exprStr="size.w">
+            <feature xsi:type="ecore:EReference" href="http://scade.com/svg#//draw/Box/width"/>
+            <expression xsi:type="com.scade.sdk.expr:Variable" name="size">
+              <path>w</path>
+            </expression>
+          </constraints>
+          <width value="100.0"/>
+          <height value="100.0"/>
+        </children>
+        <children xsi:type="svg:Group" attributes="{&quot;template-id&quot;:&quot;content&quot;}"/>
+      </children>
+    </children>
+  </svg:Group>
+</xmi:XMI>

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeExtensions.build/master.swiftdeps"
+  },
+  "/Volumes/Olakunle/ListControl/.build/checkouts/ScadeExtensions/Sources/Extensions/URL+Resources.swift": {
+    "dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeExtensions.build/URL+Resources.d",
+    "object": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeExtensions.build/URL+Resources.swift.o",
+    "swiftmodule": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeExtensions.build/URL+Resources~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeExtensions.build/URL+Resources.swiftdeps"
+  }
+}

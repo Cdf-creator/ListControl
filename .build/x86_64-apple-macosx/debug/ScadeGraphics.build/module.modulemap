@@ -1,0 +1,4 @@
+module ScadeGraphics {
+    header "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeGraphics.build/ScadeGraphics-Swift.h"
+    requires objc
+}

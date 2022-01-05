@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "c00316d66c288075d58174baad73f9f9"
+build_time: [1641324894, 597365000]
+inputs:
+  "/Volumes/Olakunle/ListControl/.build/checkouts/ScadeExtensions/Sources/Core/Core.swift": [1641307148, 0]

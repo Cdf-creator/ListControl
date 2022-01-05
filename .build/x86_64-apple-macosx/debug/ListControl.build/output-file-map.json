@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/master.swiftdeps"
+  },
+  "/Volumes/Olakunle/ListControl/Sources/ListControl/Country.swift": {
+    "dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Country.d",
+    "object": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Country.swift.o",
+    "swiftmodule": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Country~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Country.swiftdeps"
+  },
+  "/Volumes/Olakunle/ListControl/Sources/ListControl/Extensions/Pages/main.page.ext.swift": {
+    "dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Extensions/Pages/main.page.ext.d",
+    "object": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Extensions/Pages/main.page.ext.swift.o",
+    "swiftmodule": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Extensions/Pages/main.page.ext~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/Extensions/Pages/main.page.ext.swiftdeps"
+  },
+  "/Volumes/Olakunle/ListControl/Sources/ListControl/main.page.swift": {
+    "dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/main.page.d",
+    "object": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/main.page.swift.o",
+    "swiftmodule": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/main.page~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/main.page.swiftdeps"
+  },
+  "/Volumes/Olakunle/ListControl/Sources/ListControl/start.swift": {
+    "dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/start.d",
+    "object": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/start.swift.o",
+    "swiftmodule": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/start~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ListControl.build/start.swiftdeps"
+  }
+}

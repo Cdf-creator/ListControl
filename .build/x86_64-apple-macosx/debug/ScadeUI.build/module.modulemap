@@ -1,0 +1,4 @@
+module ScadeUI {
+    header "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeUI.build/ScadeUI-Swift.h"
+    requires objc
+}
