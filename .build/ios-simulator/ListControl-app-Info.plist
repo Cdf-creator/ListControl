@@ -57,16 +57,16 @@
     <array>
     <string>arm64</string>
 </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Choose a photo from your library</string>
     <key>NSCameraUsageDescription</key>
     <string>Take pictures from camera</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string></string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
-    <key>CFBundleVersion</key>
-    <string>1</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string></string>
     <key>UIDeviceFamily</key>
     <array>
     <integer>1</integer>

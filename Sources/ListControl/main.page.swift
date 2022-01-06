@@ -29,18 +29,18 @@ class MainPageAdapter: SCDLatticePageAdapter {
         let backgroundColor = element.backgroundColor
       else { return }
 
-      // We want to animate bacground color from gold to the original color
+      // we want to animate the background color from gold to the original color
       let fromColor = SCDSvgRGBColor.gold
       let toColor = SCDSvgRGBColor(widgetRGB: backgroundColor)
 
-      // Lets animate fill property
+      // let us animate fill property
       let anim = SCDSvgPropertyAnimation("fill", from: fromColor, to: toColor)
       anim.duration = 0.4
       anim.repeatCount = 1
       anim.delay = 0.2
       anim.deleteOnComplete = true
 
-      element.backgroundRect?.animations.append(anim)
+      element.backgroundRect?.animations.append(anim) 
     }
 
   }

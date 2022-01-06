@@ -20,9 +20,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(
-      name: "ScadeExtensions", url: "https://github.com/scade-platform/ScadeExtensions",
-      .branch("main"))
+    .package(name: "ScadeExtensions", url: "https://github.com/scade-platform/ScadeExtensions", .branch("main"))
   ],
   targets: [
     .target(

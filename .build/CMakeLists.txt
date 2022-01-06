@@ -22,11 +22,11 @@ add_scade_application("ListControl" "com.scade.listcontrol"
 
 	IOS_EXPORT_METHOD "ad-hoc"
 	MACOS_PLIST_PROPERTIES
+		"CFBundleVersion" STRING "1"
 		"NSPhotoLibraryUsageDescription" STRING "Choose a photo from your library"
 		"NSCameraUsageDescription" STRING "Take pictures from camera"
-		"NSLocationWhenInUseUsageDescription" STRING ""
 		"CFBundleShortVersionString" STRING "1.0"
-		"CFBundleVersion" STRING "1"
+		"NSLocationWhenInUseUsageDescription" STRING ""
 
 		"UIDeviceFamily" ARRAY
 			INT "1"
