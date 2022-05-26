@@ -1,6 +1,6 @@
+import ScadeGraphics
 import ScadeKit
 import ScadeUI
-import ScadeGraphics
 
 class MainPageAdapter: SCDLatticePageAdapter {
 
@@ -16,13 +16,11 @@ class MainPageAdapter: SCDLatticePageAdapter {
     self.list1.items = Array(Countries().countries.prefix(51))
 
     // listen to itemSelected events
-    list1.onItemSelected.append(
-      SCDWidgetsItemSelectedEventHandler { event in
-        if let country = event?.item as? Country {
-          print("Hello \(country.countryName)")
-        }
+    list1.onItemSelected { event in
+      if let country = event?.item as? Country {
+        print("Hello \(country.countryName)")
       }
-    )
+    }
 
     list1.onItemSelected { event in
       guard let element = event.element as? SCDWidgetsListElement,
@@ -40,7 +38,7 @@ class MainPageAdapter: SCDLatticePageAdapter {
       anim.delay = 0.2
       anim.deleteOnComplete = true
 
-      element.backgroundRect?.animations.append(anim) 
+      element.backgroundRect?.animations.append(anim)
     }
 
   }

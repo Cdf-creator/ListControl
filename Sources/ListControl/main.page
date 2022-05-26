@@ -1,34 +1,9 @@
 <?xml  version="1.0" encoding="UTF-8" standalone="no"?>
-<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmlns:binding="http://scade.com/sdk/data/binding" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgetlayouts="http://scade.com/sdk/view/widgets/layout" xmlns:widgets="http://scade.com/sdk/view/widgets">
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgetlayouts="http://scade.com/sdk/view/widgets/layout" xmlns:widgets="http://scade.com/sdk/view/widgets">
   <widgets:Page name="main">
     <minArea width="320" height="480"/>
     <location/>
     <backgroundColor Red="248" Green="248" Blue="248"/>
-    <children xsi:type="widgets:RowView" name="rowView">
-      <children xsi:type="widgets:Button" text="CountryList" name="button1" horizontalAlignment="CENTER">
-        <font fontFamily="Arial-BoldMT" size="14">
-          <color/>
-        </font>
-        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT" grabVerticalSpace="true">
-          <minSize width="86" height="23"/>
-          <maxSize width="-1" height="-1"/>
-        </layoutData>
-        <location x="5" y="5"/>
-        <size width="310" height="40"/>
-        <contentSize width="86" height="23"/>
-      </children>
-      <layout xsi:type="layout:GridLayout" marginTop="5" marginBottom="5" marginLeft="5" marginRight="5"/>
-      <maxArea width="-1" height="-1"/>
-      <location y="430"/>
-      <minArea/>
-      <size width="320" height="50"/>
-      <layoutData xsi:type="layout:AutoLayoutData">
-        <constraints sourceAnchor="TOP" targetAnchor="BOTTOM" source="/0/@children.0" target="/0/@children.1"/>
-        <constraints source="/0/@children.0" target="/0"/>
-        <constraints sourceAnchor="RIGHT" targetAnchor="RIGHT" source="/0/@children.0" target="/0"/>
-        <constraints sourceAnchor="BOTTOM" targetAnchor="BOTTOM" source="/0/@children.0" target="/0"/>
-      </layoutData>
-    </children>
     <children xsi:type="widgets:List" name="list1">
       <template name="template">
         <element name="listElement">
@@ -85,16 +60,40 @@
       <location/>
       <minArea/>
       <layoutData xsi:type="layout:AutoLayoutData">
-        <constraints sourceAnchor="TOP" targetAnchor="TOP" source="/0/@children.1" target="/0"/>
+        <constraints sourceAnchor="TOP" targetAnchor="TOP" source="/0/@children.0" target="/0"/>
+        <constraints source="/0/@children.0" target="/0"/>
+        <constraints sourceAnchor="RIGHT" targetAnchor="RIGHT" source="/0/@children.0" target="/0"/>
+        <constraints sourceAnchor="BOTTOM" targetAnchor="BOTTOM" constant="-50" source="/0/@children.0" target="/0"/>
+      </layoutData>
+    </children>
+    <children xsi:type="widgets:RowView" name="rowView">
+      <children xsi:type="widgets:Button" text="CountryList" name="button1" horizontalAlignment="CENTER">
+        <font fontFamily="Arial-BoldMT" size="14">
+          <color/>
+        </font>
+        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT" grabVerticalSpace="true">
+          <minSize width="86" height="23"/>
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="5" y="5"/>
+        <size width="310" height="40"/>
+        <contentSize width="86" height="23"/>
+      </children>
+      <layout xsi:type="layout:GridLayout" marginTop="5" marginBottom="5" marginLeft="5" marginRight="5"/>
+      <maxArea width="-1" height="-1"/>
+      <location y="430"/>
+      <minArea/>
+      <size width="320" height="50"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="TOP" targetAnchor="BOTTOM" source="/0/@children.1" target="/0/@children.0"/>
         <constraints source="/0/@children.1" target="/0"/>
         <constraints sourceAnchor="RIGHT" targetAnchor="RIGHT" source="/0/@children.1" target="/0"/>
-        <constraints sourceAnchor="BOTTOM" targetAnchor="BOTTOM" constant="-50" source="/0/@children.1" target="/0"/>
+        <constraints sourceAnchor="BOTTOM" targetAnchor="BOTTOM" source="/0/@children.1" target="/0"/>
       </layoutData>
     </children>
     <layout xsi:type="layout:AutoLayout"/>
     <maxArea width="320" height="480"/>
     <size width="320" height="480"/>
   </widgets:Page>
-  <binding:BindingModel/>
   <navigation:Navigation page="/0"/>
 </xmi:XMI>

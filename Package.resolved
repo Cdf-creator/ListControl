@@ -6,7 +6,25 @@
         "repositoryURL": "https://github.com/scade-platform/ScadeExtensions",
         "state": {
           "branch": "main",
-          "revision": "5e06e9b10f2ff0466d7b242454618ea55d15bac4",
+          "revision": "07b99a14b938af26f4847c9da96d31303f386df8",
+          "version": null
+        }
+      },
+      {
+        "package": "Android",
+        "repositoryURL": "https://github.com/scade-platform/swift-android.git",
+        "state": {
+          "branch": "android/24",
+          "revision": "262aad747a453dc20e80eb3675737dd3b5080756",
+          "version": null
+        }
+      },
+      {
+        "package": "Java",
+        "repositoryURL": "https://github.com/scade-platform/swift-java.git",
+        "state": {
+          "branch": "main",
+          "revision": "f433aa076a60391346a3f4b51408307e0a613325",
           "version": null
         }
       }

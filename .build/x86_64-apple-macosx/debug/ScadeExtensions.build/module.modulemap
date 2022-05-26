@@ -1,4 +1,0 @@
-module ScadeExtensions {
-    header "/Volumes/Olakunle/ListControl/.build/x86_64-apple-macosx/debug/ScadeExtensions.build/ScadeExtensions-Swift.h"
-    requires objc
-}

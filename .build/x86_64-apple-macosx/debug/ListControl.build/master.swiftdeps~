@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
-options: "00c82645b2077fa399da20f95e493304"
-build_time: [1641491254, 855769000]
-inputs:
-  "/Volumes/Olakunle/ListControl/Sources/ListControl/Country.swift": [1641298311, 0]
-  "/Volumes/Olakunle/ListControl/Sources/ListControl/Extensions/Pages/main.page.ext.swift": [1641491246, 0]
-  "/Volumes/Olakunle/ListControl/Sources/ListControl/main.page.swift": [1641479940, 0]
-  "/Volumes/Olakunle/ListControl/Sources/ListControl/start.swift": [1641298193, 0]

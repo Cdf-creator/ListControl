@@ -1,6 +1,0 @@
-/Volumes/Olakunle/ListControl/.build/ios-simulator/CMakeFiles/rebuild_cache.dir
-/Volumes/Olakunle/ListControl/.build/ios-simulator/CMakeFiles/ListControl.dir
-/Volumes/Olakunle/ListControl/.build/ios-simulator/CMakeFiles/ListControl-app.dir
-/Volumes/Olakunle/ListControl/.build/ios-simulator/CMakeFiles/ListControl-app-copy.dir
-/Volumes/Olakunle/ListControl/.build/ios-simulator/CMakeFiles/edit_cache.dir
-/Volumes/Olakunle/ListControl/.build/ios-simulator/CMakeFiles/ListControl-build-spm.dir

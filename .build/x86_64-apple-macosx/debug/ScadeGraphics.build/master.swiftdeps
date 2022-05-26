@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
-options: "e98eccfc30933d05af120065f75a11b9"
-build_time: [1641489254, 932480000]
-inputs:
-  "/Volumes/Olakunle/ListControl/.build/checkouts/ScadeExtensions/Sources/Graphics/Color.swift": [1641384068, 0]
-  "/Volumes/Olakunle/ListControl/.build/checkouts/ScadeExtensions/Sources/Graphics/Graphics.swift": [1641384068, 0]
