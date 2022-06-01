@@ -17,7 +17,7 @@ class MainPageAdapter: SCDLatticePageAdapter {
 
     // listen to itemSelected events
     list1.onItemSelected { event in
-      if let country = event?.item as? Country {
+      if let country = event.item as? Country {
         print("Hello \(country.countryName)")
       }
     }
